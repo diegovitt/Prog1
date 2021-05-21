@@ -8,12 +8,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenidos</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <style>
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
         body {
 
             background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
             color: white;
             text-align: center;
+            font-family: 'Roboto', sans-serif;
 
         }
 
@@ -29,10 +60,49 @@
         div {
             text-align: left;
         }
+
+        body div {
+            text-align: right;
+            cursor: pointer;
+
+
+        }
+
+        body div h3{
+            text-align: left;
+        }
+
+        .material-icons {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 1);
+
+
+        }
     </style>
 </head>
 
 <body>
+
+    <div class="topnav">
+        <a class="active" href="#body">Home</a>
+
+
+        <span class="material-icons">
+            <a href="https://www.facebook.com/institutoicop.santafe/" target="_blank"><i
+                    class="material-icons">facebook</i></a>
+
+            <a href="mailto:instituto@icop.edu.ar"><i class="material-icons">mail</i></a>
+
+
+
+            <i class="material-icons"></i>
+            <i class="material-icons"></i>
+
+        </span>
+
+    </div>
+
+
 
     <section id="body">
 
@@ -53,7 +123,7 @@
 
 
 
-    <a href="mailto:instituto@icop.edu.ar">Enviar email</a><br><br>
+
 
     <a href="download/Etiqueta_a_href.rar" download>Descargar Tutorial</a><br><br>
 
